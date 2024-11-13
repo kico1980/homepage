@@ -1,0 +1,12 @@
+
+h1 {
+    text-align: center;
+}
+.image-container {
+    text-align: center; /* Zentriert das Bild */
+    margin-top: 40px; /* Abstand nach oben */
+}
+img {
+    max-width: 50%; /* Bild responsiv machen */
+    height: auto; /* Höhe automatisch anpassen */
+}
