@@ -47,7 +47,18 @@
       </div>
       <div class="mdl-tabs__panel" id="feedback">
         <ul>
+          <form name="contact" method="POST" data-netlify="true">
+            <label for="name">Name:</label>
+            <input type="text" name="name" required>
           
+            <label for="email">E-Mail:</label>
+            <input type="email" name="email" required>
+          
+            <label for="message">Nachricht:</label>
+            <textarea name="message" required></textarea>
+          
+            <button type="submit">Absenden</button>
+          </form>
         </ul>
       </div>
       <div class="mdl-tabs__panel" id="family">
