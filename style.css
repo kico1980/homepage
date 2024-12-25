@@ -1,0 +1,118 @@
+
+
+.mein_Inhalt {
+    text-align: center; /* Zentriert das Bild */
+    margin-top: 40px; /* Abstand nach oben */
+}
+/*.image-container {
+    transform: scale(0.3); 
+    right:100%;
+   
+}*/
+.page-cont {
+    display: flex;
+            justify-content: center; /* Horizontale Zentrierung */
+            align-items: center; /* Vertikale Zentrierung */
+            height: 80vh; /* Höhe des Containers auf 100% der Ansichtshöhe setzen */
+            
+font-size:xx-large;
+}
+.footer{
+    text-align: center; /* Zentriert den Text horizontal */
+    margin-bottom: 20px; /* Abstand vom unteren Rand */
+}
+.Appname{
+    border-top-width: 20px;
+    text-align: center; /* Zentriert das Bild */
+    font-size: x-large;
+    text-decoration: none; /* Entfernt die Unterstreichung */
+    color: blue; /* Setzt die Textfarbe (optional) */
+
+}
+.meineApp{
+    display: block; /* Macht das Bild zu einem Blockelement */
+    margin-left: auto; /* Automatischer linker Abstand */
+    margin-right: auto; /* Automatischer rechter Abstand */
+}
+
+
+
+
+.Pfeil_links{
+    position: absolute;
+    bottom: 10px; /* Abstand vom oberen Rand */
+    left: 10px; /* Abstand vom linken Rand */
+}
+
+.Pfeil_rechts{
+    position: absolute;
+    bottom: 10px; /* Abstand vom oberen Rand */
+    right: 10px; /* Abstand vom rechten Rand */
+}
+
+.image_flyer{
+    transform: scale(0.7);
+    text-align: center; /* Zentriert den Text horizontal */
+    justify-items: center;
+}
+.titel_link{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    left:120px;
+}
+.titel_markiert{
+    color: red;
+}
+
+.menuzeile{
+    position:absolute;
+    left: auto;
+    top: auto;
+}
+.responsiv{
+    margin-left: 40px;
+    text-decoration: none;
+    font-size: x-large;
+}
+.responsiv_sub{
+    margin-left: 60px;
+    text-decoration: none;
+}
+
+.carousel {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.carousel-images img {
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+}
+.button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+.prev {
+    left: 10px;
+}
+.next {
+    right: 10px;
+}
+
+.Geschichte{
+    text-align: center; /* Zentriert den Text horizontal */
+    margin-top: 100px;
+}
