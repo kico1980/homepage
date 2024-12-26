@@ -48,16 +48,26 @@
       <div class="mdl-tabs__panel" id="feedback">
         <ul>
           <form name="contact" method="POST" data-netlify="true">
-            <label for="name">Name:</label>
-            <input type="text" name="name" required>
-          
-            <label for="email">E-Mail:</label>
-            <input type="email" name="email" required>
-          
-            <label for="message">Nachricht:</label>
-            <textarea name="message" required></textarea>
-          
-            <button type="submit">Absenden</button>
+            <div class="mdl-textfield mdl-js-textfield">
+              <input class="mdl-textfield__input" type="text" id="sample1" name="name" required>
+              <label class="mdl-textfield__label" for="sample1">Name...</label>
+            </div>
+            <div class="mdl-textfield mdl-js-textfield">
+            <label class="mdl-textfield__label" for="email">E-Mail...</label>
+            <input class="mdl-textfield__input" type="email" name="email" required>
+          </div>
+          <div class="mdl-textfield mdl-js-textfield">
+            <label class="mdl-textfield__label" for="message">Nachricht:</label>
+            <textarea class="mdl-textfield__input" name="message" required></textarea>
+          </div>
+          <div class="mdl-textfield mdl-js-textfield">
+            <button type="submit">Absenden</button></label>
+          </div>
+          </form>
+
+
+            
+           
           </form>
         </ul>
       </div>
